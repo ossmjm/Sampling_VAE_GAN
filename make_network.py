@@ -8,7 +8,7 @@ Creative applications of deep learning
 """
 
 import tensorflow as tf
-import libs.utils as utils
+import utils as utils
 import numpy as np
 
 def encoder(x, is_training, channels, filter_sizes, activation=tf.nn.tanh, reuse=None):
